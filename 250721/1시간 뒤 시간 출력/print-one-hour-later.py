@@ -1,0 +1,5 @@
+a = input()
+h,m = a.split(":")
+hour = str(int(h)+1)
+mi = str(m)
+print(hour+":"+mi)
